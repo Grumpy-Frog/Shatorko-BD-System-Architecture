@@ -30,6 +30,8 @@ import Settings from './pages/Settings';
 import Support from './pages/Support';
 import NationalInventory from './pages/NationalInventory';
 import ProjectDetails from './pages/ProjectDetails';
+import Simulation from './pages/Simulation';
+import AIHub from './pages/AIHub';
 
 export default function App() {
   return (
@@ -68,6 +70,8 @@ export default function App() {
         <Route path="/settings" element={<Settings />} />
         <Route path="/support" element={<Support />} />
         <Route path="/project-details" element={<ProjectDetails />} />
+        <Route path="/simulation" element={<Simulation />} />
+        <Route path="/ai-hub" element={<AIHub />} />
         
         {/* Fallback route */}
         <Route path="*" element={<Navigate to="/dashboard" replace />} />

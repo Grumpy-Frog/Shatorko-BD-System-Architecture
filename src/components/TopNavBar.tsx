@@ -56,6 +56,8 @@ export default function TopNavBar({ title, showLinks = true, toggleSidebar }: { 
             <Link to="/alerts" className={`text-white pb-1 font-bold ${location.pathname === '/alerts' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>Alerts</Link>
             <Link to="/map" className={`text-white pb-1 font-bold ${location.pathname === '/map' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>Map</Link>
             <Link to="/shelters" className={`text-white pb-1 font-bold ${location.pathname === '/shelters' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>Shelters</Link>
+            <Link to="/simulation" className={`text-white pb-1 font-bold ${location.pathname === '/simulation' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>Simulation</Link>
+            <Link to="/ai-hub" className={`text-white pb-1 font-bold ${location.pathname === '/ai-hub' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>AI Hub</Link>
             <Link to="/project-details" className={`text-white pb-1 font-bold ${location.pathname === '/project-details' ? 'border-b-2 border-emerald-400' : 'text-emerald-100/70 dark:text-slate-400 hover:text-white transition-colors'}`}>Project Details</Link>
           </nav>
         )}
